@@ -123,6 +123,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
@@ -132,5 +135,20 @@
       <Project>{3BF7974C-5D17-48E5-921A-CE9CDF327886}</Project>
       <Name>DemoProject</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Downarrow.png" />
   </ItemGroup>
 </Project>
